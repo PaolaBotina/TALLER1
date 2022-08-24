@@ -53,9 +53,9 @@ html {
   }
   
   .circulo .imagen{
-      width: 100%;
-      height: 100%;
-      border-radius: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
       
      
   }
@@ -64,10 +64,16 @@ html {
       
       margin: auto;    
       border-color: #111;    
-      color: #336699;
+      color: #82878b;
       text-align: center;
       
      
+  }
+
+  .color{
+    color:#82878b;
+    text-align: center;
+
   }
    .datos{
           list-style-type: none;
