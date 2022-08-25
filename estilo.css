@@ -53,9 +53,9 @@ html {
   }
   
   .circulo .imagen{
-    display: block;
-    margin: auto;
-    border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
       
      
   }
@@ -73,19 +73,15 @@ html {
   .color{
     color:#82878b;
     text-align: center;
+    vertical-align: middle;
+    padding-top: 50px;
+    
 
   }
-   .datos{
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: rgb(198, 204, 221);
-         
-          line-height: 3;
-          float: right;
-       }
+
+ 
   .seci{
+      color:#82878b;
       margin-left: 100px;
       margin-right: 100px;  
       padding: 2.2%;   
@@ -98,11 +94,21 @@ html {
   
       
   }
-  .campos{ padding: 2.5%;
-      border-style: solid ;
+  .campos{ 
+      padding: 2.5%;
+      border-style:inset;
       border-width: 1px;
-      border-top-left-radius: 100px;
-      border-top-right-radius: 100px;
-      border-bottom-left-radius: 100px;
-      border-bottom-right-radius: 100px;
+    
+      
   }
+
+  .caja .caja{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 50px 10px;
+  }
+
+  
